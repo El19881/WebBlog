@@ -1,0 +1,14 @@
+body {
+    background-color: #212529;
+    color: azure;
+}
+
+.link-body-emphasis {
+    color: aliceblue !important; 
+}
+
+.text-body-emphasis {
+    color: aliceblue !important;
+}
+
+
