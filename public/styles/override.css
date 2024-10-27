@@ -1,6 +1,8 @@
+
 body {
     background-color: #212529;
     color: azure;
+
 }
 
 .link-body-emphasis {
@@ -11,4 +13,14 @@ body {
     color: aliceblue !important;
 }
 
+.lead text-body-secondary {
+    color: aliceblue !important;
+}
 
+footer {
+    margin-top: 30vh;
+  }
+
+.card {
+    border: 0
+  }
