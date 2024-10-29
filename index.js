@@ -17,6 +17,22 @@ app.get("/music", (req, res) => {
     res.render("music.ejs");
 })
 
+app.get("/games", (req, res) => {
+    res.render("games.ejs");
+})
+
+app.get("/movies", (req, res) => {
+    res.render("movies.ejs");
+})
+
+app.get("/books", (req, res) => {
+    res.render("books.ejs");
+})
+
+app.get("/other", (req, res) => {
+    res.render("other.ejs");
+})
+
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
