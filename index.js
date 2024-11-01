@@ -37,6 +37,10 @@ app.get("/about", (req, res) => {
     res.render("about.ejs");
 })
 
+app.get("/qotsa-self-titled", (req, res) => {
+    res.render("Music/QOTSA/qotsa_self_titled.ejs");
+})
+
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
