@@ -2,6 +2,7 @@
 body {
     background-color: #212529;
     color: azure;
+    display: grid
 }
 
 .link-body-emphasis {

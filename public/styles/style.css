@@ -1,8 +1,6 @@
-footer { 
-    position: absolute; 
+footer {  
     bottom: 0; 
-    z-index: 10;
-    margin-left: 6%;
+    margin: 0 auto;
 }
 
 .grid-container {
@@ -13,3 +11,9 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+
+.grid-container-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
+  }
